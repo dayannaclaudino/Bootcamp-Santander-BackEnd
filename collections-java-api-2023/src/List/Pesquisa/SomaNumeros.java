@@ -1,4 +1,4 @@
-package List.OperacoesBasicas;
+package List.Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class SomaNumeros {
     List<Integer> listaNumeros = new ArrayList<Integer>();
 
     public SomaNumeros() {
-        this.listaNumeros = new ArrayList();
+        this.listaNumeros = new ArrayList<>();
     }
 
     public void adicionarNumero(int numero){
@@ -24,10 +24,10 @@ public class SomaNumeros {
     }
 
     public int encontrarMaiorNumero(){
+        // outra opção int menorNumero = Integer.MAX_VALUE;
         int maior = 0;
-
         for (int i : listaNumeros) {
-            if (i > maior) {
+            if (i >= maior) {
                 maior = i;
             }
         }
@@ -37,7 +37,7 @@ public class SomaNumeros {
     public int encontrarMenorNumero(){
         int menor = listaNumeros.get(0);
         for (int i : listaNumeros) {
-            if (i < menor) {
+            if (i <= menor) {
                 menor = i;
             }
         }

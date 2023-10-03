@@ -1,4 +1,4 @@
-package List.OperacoesBasicas;
+package List.Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class CatalogoLivros {
     private List <Livro> listaLivro;
     
     public CatalogoLivros() {
-        this.listaLivro = new ArrayList();
+        this.listaLivro = new ArrayList<>();
     }
 
     public void adicionarLivro(String titulo, String autor, int anoPublicacao){

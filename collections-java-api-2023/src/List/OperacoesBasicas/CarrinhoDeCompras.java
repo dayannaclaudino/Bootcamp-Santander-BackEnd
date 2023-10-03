@@ -9,7 +9,7 @@ public class CarrinhoDeCompras{
     private List<Item> listaItem;
 
     public CarrinhoDeCompras() {
-        this.listaItem = new ArrayList();
+        this.listaItem = new ArrayList<>();
     }
 
     public void adicionarItem(String nome, double preco, int quantidade){
