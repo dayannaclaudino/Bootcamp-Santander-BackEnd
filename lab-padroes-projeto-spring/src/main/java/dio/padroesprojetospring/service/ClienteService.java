@@ -1,6 +1,6 @@
-package dio.PadroesDeProjeto.service;
+package dio.padroesprojetospring.service;
 
-import dio.PadroesDeProjeto.model.Cliente;
+import dio.padroesprojetospring.model.Cliente;
 
 public interface ClienteService {
 

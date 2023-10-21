@@ -1,11 +1,11 @@
-package dio.PadroesDeProjeto.service.impl;
+package dio.padroesprojetospring.service.impl;
 
-import dio.PadroesDeProjeto.model.Cliente;
-import dio.PadroesDeProjeto.model.Endereco;
-import dio.PadroesDeProjeto.repository.ClienteRepository;
-import dio.PadroesDeProjeto.repository.EnderecoRepository;
-import dio.PadroesDeProjeto.service.ClienteService;
-import dio.PadroesDeProjeto.service.ViaCepService;
+import dio.padroesprojetospring.model.Cliente;
+import dio.padroesprojetospring.model.Endereco;
+import dio.padroesprojetospring.repository.ClienteRepository;
+import dio.padroesprojetospring.repository.EnderecoRepository;
+import dio.padroesprojetospring.service.ClienteService;
+import dio.padroesprojetospring.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

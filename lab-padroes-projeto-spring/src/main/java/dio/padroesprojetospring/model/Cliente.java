@@ -1,7 +1,11 @@
-package dio.PadroesDeProjeto.model;
+package dio.padroesprojetospring.model;
 
+import org.springframework.data.annotation.Id;
 
-import javax.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Cliente {

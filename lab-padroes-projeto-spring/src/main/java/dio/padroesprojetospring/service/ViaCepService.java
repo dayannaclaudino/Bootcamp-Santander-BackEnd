@@ -1,6 +1,6 @@
-package dio.PadroesDeProjeto.service;
+package dio.padroesprojetospring.service;
 
-import dio.PadroesDeProjeto.model.Endereco;
+import dio.padroesprojetospring.model.Endereco;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

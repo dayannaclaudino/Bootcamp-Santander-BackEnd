@@ -1,8 +1,8 @@
-package dio.PadroesDeProjeto.model;
+package dio.padroesprojetospring.model;
 
+import org.springframework.data.annotation.Id;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
 
 @Entity
 public class Endereco {

@@ -1,8 +1,8 @@
-package dio.PadroesDeProjeto.controller;
+package dio.padroesprojetospring.controller;
 
 
-import dio.PadroesDeProjeto.model.Cliente;
-import dio.PadroesDeProjeto.service.ClienteService;
+import dio.padroesprojetospring.model.Cliente;
+import dio.padroesprojetospring.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package dio.PadroesDeProjeto.repository;
+package dio.padroesprojetospring.repository;
 
-import dio.PadroesDeProjeto.model.Endereco;
+import dio.padroesprojetospring.model.Endereco;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
